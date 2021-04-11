@@ -1,23 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>注册页面</title>
+    <style>
+        li {
+            color: brown;
+        }
+    </style>
+
+
 </head>
+
 <body>
     <!-- 整体思路将整个分为表格，左边就是正常的文本，右边的每一格子设置为列表 -->
     <h2>青春不常在，抓紧谈恋爱</h2>
-    <table cellpadding = '10' cellspacing = '10'>
+    <table cellpadding='10' cellspacing='10'>
         <!-- 第一行 -->
         <tr>
-            <td>性别</td> 
+            <td>性别</td>
             <td>
                 <form>
-                    <input type="radio" checked name = 'sex' id="male">  <label for="male"><img src="imags/男.png">男</label> 
-                    <input type="radio" name="sex" id = 'female'> <label for="female"><img src="imags/女.png">女</label>
+                    <input type="radio" checked name='sex' id="male"> <label for="male"><img src="imags/男.png">男</label>
+                    <input type="radio" name="sex" id='female'> <label for="female"><img src="imags/女.png">女</label>
 
                 </form>
             </td>
@@ -90,7 +98,7 @@
             <td>所在地区</td>
             <td>
                 <form>
-                <input type="text" value="湖北省武汉市">
+                    <input type="text" value="湖北省武汉市">
                 </form>
             </td>
         </tr>
@@ -98,9 +106,9 @@
             <td>婚姻状况</td>
             <td>
                 <form>
-                    <input type="radio" name = 'marry' checked id="not married"> <label for="not married">未婚</label>
-                    <input type="radio" name = 'marry' id="married"> <label for="married">已婚</label>
-                    <input type="radio" name = 'marry' id="divorce"> <label for="divorce"> 离婚</label>   
+                    <input type="radio" name='marry' checked id="not married"> <label for="not married">未婚</label>
+                    <input type="radio" name='marry' id="married"> <label for="married">已婚</label>
+                    <input type="radio" name='marry' id="divorce"> <label for="divorce"> 离婚</label>
                 </form>
             </td>
         </tr>
@@ -168,7 +176,8 @@
                 </ul>
             </td>
         </tr>
-        
+
     </table>
 </body>
+
 </html>
